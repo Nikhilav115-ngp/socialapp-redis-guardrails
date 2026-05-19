@@ -146,5 +146,9 @@ Default Redis port:
 
 * Sample users and posts are auto-seeded at startup for quick testing.
 
+## Author
+
+Nikhil Vaidya
+
 
 
