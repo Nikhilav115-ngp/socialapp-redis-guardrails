@@ -1,4 +1,4 @@
-# SocialApp redis guardrails
+# SocialApp Redis Guardrails
 
 ## Overview
 
