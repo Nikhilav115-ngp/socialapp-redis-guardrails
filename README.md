@@ -4,14 +4,12 @@
 
 This project is a Spring Boot backend microservice implementing Redis-based guardrails, concurrency protection, virality scoring, and notification batching.
 
-The assignment focuses on:
+The project focuses on:
 - Redis atomic operations
 - Thread safety
 - Concurrent request handling
 - Stateless backend design
 - Scheduled notification batching
-
----
 
 # Tech Stack
 
@@ -21,8 +19,6 @@ The assignment focuses on:
 - Redis / Memurai
 - Spring Data JPA
 - Spring Data Redis
-
----
 
 # Features
 
@@ -76,8 +72,7 @@ user:{id}:pending_notifs
 
 ##  Concurrency Testing
 
-The system was tested using Postman Runner with:
-200 concurrent bot requests
+The system was tested using Postman Runner with 200 bot reply requests.
 
 Result:
 Exactly 100 comments stored successfully
@@ -124,15 +119,21 @@ Ensure MySQL is running locally.
 Default Redis port:
 6379
 
-3. Run Spring Boot
+3. Configure Environment Variables
 
-# Windows
+### For Windows PowerShell:
+$env:DB_USERNAME="root"
+$env:DB_PASSWORD="your_mysql_password"
+
+4. Run Spring Boot
+
+### Windows
 .\mvnw.cmd spring-boot:run
 
-# Mac/Linux
+### Mac/Linux
 ./mvnw spring-boot:run
 
-##  Notes
+### Notes
 
 * Redis is used as the real-time guardrail layer.
 
@@ -146,5 +147,12 @@ Default Redis port:
 
 * Sample users and posts are auto-seeded at startup for quick testing.
 
+* Before running locally, update MySQL username/password using environment variables.
+
+* postId and userId may change depending on existing database auto-increment values.
+
+##  Author
+
+Nikhil Vaidya
 
 
