@@ -133,7 +133,7 @@ $env:DB_PASSWORD="your_mysql_password"
 ### Mac/Linux
 ./mvnw spring-boot:run
 
-### Notes
+## Notes
 
 * Redis is used as the real-time guardrail layer.
 
@@ -151,8 +151,6 @@ $env:DB_PASSWORD="your_mysql_password"
 
 * postId and userId may change depending on existing database auto-increment values.
 
-##  Author
+## Author
 
 Nikhil Vaidya
-
-
