@@ -1,4 +1,4 @@
-# SocialApp Backend Assignment
+# SocialApp redis guardrails
 
 ## Overview
 
