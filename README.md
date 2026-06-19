@@ -1,4 +1,5 @@
-# SocialApp Backend Design
+# SocialApp Redis Guardrails
+>>>>>>> 6bfb190e3d88e7d14bbd9853aac525d00921539b
 
 ## Overview
 
