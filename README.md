@@ -1,4 +1,4 @@
-# SocialApp Backend Assignment
+# SocialApp Backend Design
 
 ## Overview
 
